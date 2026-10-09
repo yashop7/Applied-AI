@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/langchain_intro/venv/bin/python",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/langchain_intro/venv/lib/python3.12/site-packages"
+  ],
+  "python-envs.defaultEnvManager": "ms-python.python:system"
+}
