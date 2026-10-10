@@ -10,7 +10,7 @@ class Student:
     def get_details(self):
         return self.name"
 
-    def is_passing(self):
+    def is_passing(self): 
         return self.grade >= 6.0
 
 
