@@ -26,6 +26,7 @@ def load_conversation(thread_id):
 
 
 # **************************************** Session Setup ******************************
+# messages related to the active thread_id in the whole app
 if 'message_history' not in st.session_state:
     st.session_state['message_history'] = []
 

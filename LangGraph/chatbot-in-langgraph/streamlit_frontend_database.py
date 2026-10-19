@@ -26,12 +26,15 @@ def load_conversation(thread_id):
 
 
 # **************************************** Session Setup ******************************
+# All the hostory of the current exisisting thread
 if 'message_history' not in st.session_state:
     st.session_state['message_history'] = []
 
+# Current active therad ID
 if 'thread_id' not in st.session_state:
     st.session_state['thread_id'] = generate_thread_id()
 
+# All the threads stored
 if 'chat_threads' not in st.session_state:
     st.session_state['chat_threads'] = retrieve_all_threads()
 
