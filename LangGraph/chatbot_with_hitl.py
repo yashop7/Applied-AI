@@ -15,7 +15,7 @@ import requests
 load_dotenv()
 
 # -------------------
-# 1. LLM
+# 1. LLM # typo
 # -------------------
 llm = ChatOpenAI()
 
